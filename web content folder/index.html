@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة بريق</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body onclick="closeSidebar(event)">
+    <header>
+        <img src="images/logo.jpeg" alt="شركة بريق" class="logo">
+        <h1>شركة بريق</h1>
+    </header>
+    <div class="burger" id="burger" onclick="toggleSidebar(event)"><i class="fas fa-bars"></i></div>
+    <aside id="sidebar">
+        <div class="close-btn" onclick="closeSidebarButton(event)"><i class="fas fa-times"></i></div>
+        <nav>
+            <ul>
+                <li><a href="#intro" onclick="scrollToSection(event, 'intro')">مقدمة</a></li>
+                <li><a href="#services-title" onclick="scrollToSection(event, 'services-title')">الخدمات</a></li>
+                <li><a href="#locations" onclick="scrollToSection(event, 'locations')">المناطق</a></li>
+                <li><a href="#contact" onclick="scrollToSection(event, 'contact')">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <section id="intro">
+            <p>
+                <span class="highlight">شركة بريق تقدم خدمات تنظيف عالية الجودة باحترافية.</span> فريقنا المدرب يستخدم أحدث المعدات والمواد الصديقة للبيئة لضمان بيئة نظيفة وصحية. نركز على التفاصيل لتوفير رضا تام، مما يتيح لك الاستمتاع بمنزل نظيف ومريح دون عناء.
+            </p>
+        </section>
+        <section id="services">
+            <div class="service">
+                <img src="images/1.jpeg" alt="خدمة 1">
+            </div>
+            <div class="service">
+                <img src="images/2.jpeg" alt="خدمة 2">
+            </div>
+            <div class="service">
+                <img src="images/3.jpeg" alt="خدمة 3">
+            </div>
+            <div class="service">
+                <img src="images/4.jpeg" alt="خدمة 4">
+            </div>
+            <div class="service">
+                <img src="images/5.jpeg" alt="خدمة 5">
+            </div>
+            <div class="service">
+                <img src="images/6.jpeg" alt="خدمة 6">
+            </div>
+            <div class="service">
+                <img src="images/7.jpeg" alt="خدمة 7">
+            </div>
+            <div class="service">
+                <img src="images/8.jpeg" alt="خدمة 8">
+            </div>
+            <div class="service-description">
+                <h2 id="services-title">الخدمات</h2>
+                <h3>1. تنظيف الأماكن المختلفة :</h3>
+                <ul>
+                    <li>تنظيف المنازل، المكاتب، المجالس، الفلل، الشقق، والمدارس.</li>
+                </ul>
+                <h3>2. تنظيف الكنب والموكيت</h3>
+                <ul>
+                    <li>تنظيف السجاد والموكيت: شفط الأتربة باستخدام المكانس الكهربائية، وتنظيف البقع باستخدام مواد تنظيف خاصة.</li>
+                    <li>تنظيف الأرائك والكراسي: شفط الأتربة والبقع من الأسطح القماشية أو الجلدية باستخدام أدوات ومنتجات مخصصة.</li>
+                </ul>
+                <h3>3. تنظيف خزانات المياه</h3>
+                <ul>
+                    <li>تنظيف شامل: إزالة الأتربة والرواسب.</li>
+                    <li>تطهير وتعقيم: القضاء على البكتيريا والطحالب.</li>
+                    <li>صيانة دورية: تنظيف وتطهير كل ستة أشهر.</li>
+                </ul>
+                <h3>4. مكافحة الحشرات والقوارض</h3>
+                <ul>
+                    <li>مكافحة الحشرات: التخلص من الصراصير، النمل، البعوض، البراغيث، والبق.</li>
+                    <li>مكافحة القوارض: القضاء على الفئران والجرذان باستخدام أحدث الأساليب والمنتجات.</li>
+                    <li>مكافحة الحمام: إبعاد الحمام عن المباني والأسطح وتركيب أنظمة حماية فعالة.</li>
+                </ul>
+                <h3>5. تنظيف المكيفات والشبابيك</h3>
+                <ul>
+                    <li>تنظيف المكيفات: تنظيف وصيانة جميع أنواع المكيفات، مما يحسن من كفاءة التبريد ويطيل عمر الجهاز.</li>
+                    <li>تنظيف السبليت: إزالة الأتربة والبكتيريا من وحدات السبليت الداخلية والخارجية لضمان هواء نقي وصحي.</li>
+                    <li>تنظيف الشبابيك: تنظيف الزجاج والإطارات والمفاصل لضمان وضوح الرؤية ومنع تراكم الأتربة والأوساخ.</li>
+                </ul>
+                <h3>6. تنظيف المساجد</h3>
+                <ul>
+                    <li>تنظيف السجاد: إزالة الأتربة والبقع وتعطير السجاد ليبقى ناعمًا ونظيفًا.</li>
+                    <li>تنظيف الأرضيات: غسيل ومسح الأرضيات باستخدام أفضل مواد التنظيف لتعزيز النظافة.</li>
+                    <li>تنظيف دورات المياه: تعقيم وتنظيف دورات المياه لضمان النظافة والصحة العامة.</li>
+                    <li>تنظيف النوافذ: تنظيف وتلميع النوافذ لضمان دخول الضوء الطبيعي والحفاظ على الرؤية.</li>
+                    <li>تنظيف الأثاث والتجهيزات: تنظيف المقاعد، المكتبات، والمنابر لضمان بيئة نظيفة وآمنة.</li>
+                </ul>
+                <h3>7. عزل الخزانات</h3>
+                <ul>
+                    <li>الحماية من التلوث: يمنع العزل دخول الشوائب والأتربة والبكتيريا إلى داخل الخزان، مما يحافظ على نظافة المياه.</li>
+                    <li>منع التسرب: يساعد العزل في منع تسرب المياه من الخزان إلى الخارج، مما يحافظ على الكمية المخزنة من المياه ويقلل من الفاقد.</li>
+                    <li>حماية هيكل الخزان: يعمل العزل على حماية الهيكل الخارجي للخزان من التأثيرات البيئية مثل الرطوبة والأملاح، مما يطيل عمر الخزان.</li>
+                    <li>تقليل تكاليف الصيانة: يقلل العزل من حاجة الخزان للصيانة الدورية والإصلاحات الناتجة عن التلف أو التسريب.</li>
+                </ul>
+                <h3>8. تنظيف المدارس</h3>
+                <ul>
+                    <li>تنظيف وتعقيم الفصول الدراسية.</li>
+                    <li>تنظيف الممرات والمرافق العامة.</li>
+                    <li>تنظيف وتعقيم دورات المياه.</li>
+                    <li>تنظيف النوافذ والزجاج.</li>
+                    <li>تعقيم الأسطح والمعدات المدرسية.</li>
+                </ul>
+                <h3>9. جلي الرخام والجرانيت والموزاييك</h3>
+                <ul>
+                    <li>جلي وتلميع الرخام لإعادة البريق الطبيعي.</li>
+                    <li>معالجة الخدوش والشقوق في الرخام والجرانيت.</li>
+                    <li>تنظيف وتلميع الأرضيات والجدران المصنوعة من الموزاييك.</li>
+                    <li>استخدام مواد عالية الجودة وآمنة للبيئة.</li>
+                    <li>خدمات صيانة دورية للحفاظ على جمال الأسطح.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="locations">
+            <h2>المناطق</h2>
+            <p>حي المطار، حي الجامعيين، حي صبابة، حي النقرة، الشنان، موقق، والشملي، وجميع احياء حائل</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <p>الهاتف: 0559304864</p>
+                <p>فيسبوك: <a href="https://www.facebook.com/bareeqcleanksa" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a></p>
+                <p>إنستغرام: <a href="https://www.instagram.com/bareeqcleanksa/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
